@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text { font: bold 20px sans-serif; fill: black; }
+    .tool { fill: black; }
+  </style>
+  <!-- Wrench -->
+  <path class="tool" d="M20,60 L30,50 L40,60 L35,65 L45,75 L40,80 L30,70 L25,75 Z" />
+  <!-- Hammer -->
+  <path class="tool" d="M50,50 H80 V60 H65 V90 H55 V60 H50 Z" />
+  <!-- Text -->
+  <text x="100" y="70" class="text">C.J.</text>
+  <text x="70" y="100" class="text">WORKS</text>
+</svg>
