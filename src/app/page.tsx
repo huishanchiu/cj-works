@@ -4,6 +4,7 @@ import React from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import TestimonialSlider from "@/components/TestimonialSlider";
+import Image from "next/image";
 
 export default function Home() {
   const [sliderRef] = useKeenSlider({
@@ -21,7 +22,7 @@ export default function Home() {
         className="keen-slider w-full h-150 overflow-hidden relative"
       >
         <div className="keen-slider__slide">
-          <img
+          <Image
             src="/images/ADU.png"
             alt="建築1"
             className="w-full h-full object-cover"
@@ -37,14 +38,14 @@ export default function Home() {
           </div>
         </div>
         <div className="keen-slider__slide">
-          <img
+          <Image
             src="/images/outside.png"
             alt="建築2"
             className="w-full h-full object-cover"
           />
         </div>
         <div className="keen-slider__slide">
-          <img
+          <Image
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvTTsAe8OCnBMGyYPcjza01MdhfPQ78siiw&s"
             alt="建築3"
             className="w-full h-full object-cover"
@@ -102,10 +103,9 @@ export default function Home() {
             </ul>
           </div>
           <div className="bg-gray-100 p-6 rounded shadow text-gray-700 leading-relaxed">
-            Every space has its own story. At C.J. Works, we don't just build —
-            we bring visions to life. From consultation and design to execution,
-            our experienced team ensures every detail meets the highest
-            standards.
+            {
+              "Every space has its own story. At C.J. Works, we don't just build — we bring visions to life. From consultation and design to execution, our experienced team ensures every detail meets the highest standards."
+            }
           </div>
         </div>
       </section>

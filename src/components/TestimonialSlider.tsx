@@ -1,6 +1,7 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
+import Image from "next/image";
 
 export default function TestimonialSlider() {
   const [sliderRef] = useKeenSlider({
@@ -89,7 +90,7 @@ export default function TestimonialSlider() {
               <div>
                 <p className="italic">{item.content}</p>
                 <footer className="mt-2 text-right">— {item.name}</footer>
-                <img
+                <Image
                   src={`/images/p1.png`}
                   alt={`建築${1}`}
                   className="w-full h-auto object-contain mt-2"

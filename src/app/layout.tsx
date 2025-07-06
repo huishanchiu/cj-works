@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "keen-slider/keen-slider.min.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,9 +24,8 @@ export default function RootLayout({
         </div>
         <header className="p-6 flex gap-4 bg-slate-100 text-gray-700 sticky top-0 z-50 bg-white shadow">
           <Link href="/">
-            <img src="/logo/Logo-r.png" alt="建築1" className="w-18 h-8" />
+            <Image src="/logo/Logo-r.png" alt="建築1" className="w-18 h-8" />
           </Link>
-
           <Link href="/contact" className="hover:underline">
             Services
           </Link>
