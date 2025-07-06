@@ -23,7 +23,7 @@ export default function TestimonialSlider() {
     },
   });
 
-  const animation = { duration: 100000, easing: (t: any) => t };
+  const animation = { duration: 100000, easing: (t: number) => t };
 
   const testimonials = [
     {
