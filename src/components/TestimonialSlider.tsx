@@ -1,6 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
+import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import type { KeenSliderInstance } from "keen-slider";
 import "keen-slider/keen-slider.min.css";
 
 export default function TestimonialSlider() {
