@@ -26,6 +26,8 @@ export default function Home() {
             src="/images/ADU.png"
             alt="建築1"
             className="w-full h-full object-cover"
+            width={1920}
+            height={1080}
           />
           <div className="absolute inset-0 bg-white/30 flex flex-col justify-center items-center text-white w-100  h-150">
             <h1 className="text-4xl font-bold mb-4">打造專屬您的空間</h1>
@@ -42,13 +44,17 @@ export default function Home() {
             src="/images/outside.png"
             alt="建築2"
             className="w-full h-full object-cover"
+            width={1920}
+            height={1080}
           />
         </div>
         <div className="keen-slider__slide">
           <Image
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvTTsAe8OCnBMGyYPcjza01MdhfPQ78siiw&s"
+            src="/images/outside.png"
             alt="建築3"
             className="w-full h-full object-cover"
+            width={1920}
+            height={1080}
           />
         </div>
       </div>

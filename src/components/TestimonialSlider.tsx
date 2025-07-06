@@ -94,6 +94,8 @@ export default function TestimonialSlider() {
                   src={`/images/p1.png`}
                   alt={`建築${1}`}
                   className="w-full h-auto object-contain mt-2"
+                  width={1920}
+                  height={1080}
                 />
               </div>
             </blockquote>
